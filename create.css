@@ -1,0 +1,38 @@
+.pacman {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: relative;
+    clip-path: polygon(57% 0, 97% 22%, 48% 51%, 99% 74%, 84% 92%, 50% 100%, 17% 93%, 0% 70%, 0% 35%, 16% 13%);
+}
+
+.pacman::before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 20px;
+    right: 20px;
+}
+
+.pacman2 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: fixed;
+    clip-path: polygon(57% 0, 86% 9%, 48% 51%, 84% 94%, 84% 92%, 50% 100%, 17% 93%, 0% 70%, 0% 35%, 16% 13%);
+}
+
+.pacman2::before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 20px;
+    right: 20px;
